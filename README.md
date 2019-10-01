@@ -5,10 +5,10 @@ Run Webdriver tests in Lambda with Serverless Framework + Python
 
 (With Serverless)
 * Serverless Framework `npm install serverless`
-** Python specific lib `serverless-python-requirements`
+  * Python specific lib `serverless-python-requirements`
 * Confifure your Serverless AWS creds
-** `export AWS_ACCESS_KEY_ID=<your-key-here>`
-** `export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>`
+  * `export AWS_ACCESS_KEY_ID=<your-key-here>`
+  * `export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>`
 * Deploy! `sls deploy`
 
 (Pure AWS)
