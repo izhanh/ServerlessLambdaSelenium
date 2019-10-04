@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Unzip Chrome if not done already
-if [ ! -d directory ]; unzip chrome.zip
+if [ ! -d directory ]; then 
+	unzip chrome.zip
+fi
 
 # Set AWS
 source aws.properties
