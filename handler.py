@@ -14,7 +14,7 @@ def seleniumTest(event, context):
         "body": body
     }
 
-    print(webdriverFunctions.getDriverVersion(driver))
+    #print(webdriverFunctions.getDriverVersion(driver))
     webdriverFunctions.saveScreenshot(driver, "success.png")
     webdriverFunctions.closeDriverSession(driver)
 

@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Unzip Chrome if not done already
-if [ ! -d chrome ]; then 
-	unzip chrome.zip
-fi
+if [ ! -d chrome ]; then unzip chrome.zip; fi
+
+# Create the Screenshots folder
+if [ ! -d screenshots ]; then mkdir screenshots; fi
 
 # Set AWS
 source aws.properties
