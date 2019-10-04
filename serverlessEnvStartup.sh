@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Unzip Chrome if not done already
-if [ ! -d directory ]; then 
+if [ ! -d chrome ]; then 
 	unzip chrome.zip
 fi
 
