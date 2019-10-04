@@ -10,8 +10,8 @@ pathSep = "\\" if opSys == "windows" else "/"
 
 # Specific folder things
 screenshotsPath = currentFolder + pathSep + "screenshots" + pathSep
+chromeBinaryPath = currentFolder + pathSep + "chrome-linux" + pathSep + "chrome"
 chromedriverPath = currentFolder + pathSep + "chrome" + pathSep + "chromedriver"
-chromeBinaryPath = currentFolder + pathSep + "chrome" + pathSep + "headless-chromium"
 
 # Selenium functions
 
