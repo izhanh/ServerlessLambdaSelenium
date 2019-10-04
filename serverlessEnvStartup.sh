@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Unzip Chrome if not done already
+if [ ! -d directory ]; unzip chrome.zip
+
 # Set AWS
 source aws.properties
 sed -i '/export AWS_PROFILE/d' ~/.bashrc
